@@ -1,0 +1,18 @@
+@mixin reset-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+@mixin htext {
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 107px;
+    text-transform: uppercase;
+    color: #F7654A;
+  }
+@mixin flex {
+    display: $flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
